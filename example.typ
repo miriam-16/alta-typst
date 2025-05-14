@@ -1,94 +1,88 @@
 #import "alta-typst.typ": alta, term, skill, styled-link
 
 #alta(
-  name: "John Smith",
+  name: "Miriam LAMARI",
   links: (
-    (name: "email", link: "mailto:contact@example.com"),
-    (name: "website", link: "https://example.com/", display: "example.com"),
-    (name: "github", link: "https://github.com/example", display: "@example"),
-    (name: "linkedin", link: "https://linkedin.com/in/example", display: "John Smith"),
+    (name: "email", link: "mailto:miriam.lamari2@gmail.com"),
+    (name: "github", link: "https://github.com/miriam-16", display: "@miriam-16"),
+    (name: "linkedin", link: "https://www.linkedin.com/in/miriam-lamari-a944a6247/", display: "Miriam Lamari"),
   ),
-  tagline: [Software Engineer. #lorem(10)],
+  tagline: [Double Degree Data Science Student with interest in software development, data management and Large Language Models],
   [
-    == Experience
-
-    === Junior Software Engineer \
-    _Company Two_\
-    #term[Jul 2021 --- Jul 2022][London, UK]
-
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(24)
-
-    === Junior Systems Administrator \
-    _Company 1_\
-    #term[Oct 2019 --- Jul 2021][Bournemouth, UK]
-
-    - #lorem(20)
-    - #lorem(10)
-
-    References available on request
-
     == Education
 
-    === Higher \
-    _University Name_\
-    #term[Sep 2019 --- Jul 2023][Location, UK]
+    ==== Master's Degree in Data Science \
+    _EURECOM_\
+    #term[Present][Sophia Antipolis, France]
 
-    B.Sc. Computer Science with Year in Industry. #lorem(10)
+    *Track*: Data Science\
+    *Relevant coursework*:
+    - Digital Image Processing
+    - Machine Learning and Intelligent System
+    - Distributed Systems and Cloud Computing
+    - Security and Privacy for Big Data and Cloud
+    - Deep Learning
+    - Algorithmic Machine Learning
+    *Projects*:
+    - "_TableKV: KV Cache Compression for In-Context Table Processing_": Conducted research exploring Key-Value (KV) cache compression as an alternative to Retrieval-Augmented Generation (RAG) for handling large tabular data in LLMs.\
+    _Language_: Python
 
-    === A-Levels \
-    _Place Grammar School_\
-    #term[Sep 2017 --- Aug 2019][Place, UK]
+    ==== Master's Degree in Computer Engineering \
+    _Politecnico di Torino_\
+    #term[Present][Turin, Italy]
 
-    #lorem(10)
+    *Track*: Artificial Intelligence and Data Analytics
+    *Relevant coursework*:
+    - Software Engineering
+    - Web Application
+    - Big Data: Architectures and Data Analytics
+    - System and Device Programming
+    - Data Science and Database Technologies
+    *Projects*:
+    - "_What do you meme?_" - Game Website version\
+      _Languages_: JavaScript, HTML/CSS, React
+    - "_SFIAR_" - Fault Injection System for Redundant Applications\
+      _Language_: Rust
 
-    == Interests
+    ==== Bachelor's Degree in Computer Science \
+    _University of Turin (UniTo)_\
+    #term[Nov 2023][Turin, Italy]
 
-    - Walks on the beach
-    - #lorem(8)
-    - #lorem(6)
-    - #lorem(4)
-    - #lorem(12)
-    
-    #colbreak()
-    == Projects
+    *Thesis*: Create and install cloud facilities using new CI/CD technologies\
+    *Relevant coursework*:
+    - Computer Architecture
+    - Data Structures and Algorithms
+    - Database and Information Systems
+    - Operating Systems
+    - Human-Computer Interaction and Web Technologies
 
-    ==== #link("https://example.com")[Some project]
 
-    #lorem(30)
-    
-    #styled-link("https://example.com")[Example page]
+    \
+    *Projects*:
+    - Web and mobile application that offers booking services for lessons\
+      _Languages_: Java, JavaScript, HTML/CSS, Vue.js
+    - Client-server application that offers email services\
+      _Language_: Java
 
-    ==== Project with a longer name
+    == Formation
+    === Collegio Universitario di Torino Renato Einaudi \
+    _Private Foundation (Merit College)_\
+    #term[Apr 2022 --- Jul 2024][Turin, Italy]
 
-    #lorem(20)
+    *Description*: The Fondazione Collegio Universitario Einaudi is a private non-proﬁt foundation, which manages Colleges of Merit recognized and accredited by MUR. It oﬀers living spaces and training courses to over 800 talented students and uni-
+    versity students.
 
-    ==== Employee Appraisal System
+    *Courses from my Personalized Training Program*:
+    - Individual Development Plan
+    - English Fit Level 19 (Wall Street English)
+    - Power BI: Introduction to Business Intelligence
+    - Cultural Experience Abroad: CERN, Geneva, Switzerland
 
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(20)
+    == Language Skills
 
-    ==== Hackathons
+    - *Italian*: Native
+    - *English*: Fluent
+    - *French*: Intermediate
 
-    / Hack1: #lorem(20)
-    / TwoHackTwo: #lorem(15)
-
-    ==== Project 4
-
-    - #lorem(30)
-    - #lorem(10)
-
-    ==== Project Five
-
-    - #lorem(23)
-
-    == Skills
-
-    #skill("Go", 5)
-    #skill("TypeScript", 3)
-    #skill("Git", 1)
-    #skill("Typst", 1)
   ],
 )
