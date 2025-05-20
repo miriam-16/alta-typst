@@ -7,7 +7,7 @@
     (name: "github", link: "https://github.com/miriam-16", display: "@miriam-16"),
     (name: "linkedin", link: "https://www.linkedin.com/in/miriam-lamari-a944a6247/", display: "Miriam Lamari"),
   ),
-  tagline: [Double Degree Data Science Student with interest in software development, data management and Large Language Models],
+  tagline: [Double Degree Data Science Student with interest in software development, UX/UI, data management and Large Language Models],
   [
     == Education
 
@@ -24,8 +24,8 @@
     - Deep Learning
     - Algorithmic Machine Learning
     *Projects*:
-    - "_TableKV: KV Cache Compression for In-Context Table Processing_": Conducted research exploring Key-Value (KV) cache compression as an alternative to Retrieval-Augmented Generation (RAG) for handling large tabular data in LLMs.\
-    _Language_: Python
+    - "_TableKV: KV Cache Compression for In-Context Table Processing_": Conducted research exploring Key-Value (KV) cache compression as an alternative to Retrieval-Augmented Generation (RAG) for handling large tabular data in LLMs. Implemented methods as NVIDIA 'kvpress' press.\
+      _Language_: Python
 
     ==== Master's Degree in Computer Engineering \
     _Politecnico di Torino_\
@@ -47,23 +47,26 @@
     ==== Bachelor's Degree in Computer Science \
     _University of Turin (UniTo)_\
     #term[Nov 2023][Turin, Italy]
-
-    *Thesis*: Create and install cloud facilities using new CI/CD technologies\
+    \
     *Relevant coursework*:
     - Computer Architecture
     - Data Structures and Algorithms
     - Database and Information Systems
     - Operating Systems
     - Human-Computer Interaction and Web Technologies
-
-
+    \
+    \
     \
     *Projects*:
     - Web and mobile application that offers booking services for lessons\
       _Languages_: Java, JavaScript, HTML/CSS, Vue.js
     - Client-server application that offers email services\
-      _Language_: Java
-
+      _Language_: Java \
+    *Stage*: Mediamente Consulting, Turin, Italy\
+    *Thesis in company*: Create and install cloud facilities using new CI/CD technologies\
+    Usage of Terraform to design and develop cloud infrastrucures. \
+    _Language_: Terraform  \
+    \
     == Formation
     === Collegio Universitario di Torino Renato Einaudi \
     _Private Foundation (Merit College)_\
@@ -76,8 +79,8 @@
     - Individual Development Plan
     - English Fit Level 19 (Wall Street English)
     - Power BI: Introduction to Business Intelligence
-    - Cultural Experience Abroad: CERN, Geneva, Switzerland
-
+    - Cultural Experience Abroad: CERN, Geneva, Switzerland\
+    \
     == Language Skills
 
     - *Italian*: Native
